@@ -1,6 +1,5 @@
-# Plugin on/off switch.
-# Edit this file on GitHub to control who can run the plugin.
-# Changes reach servers within about an hour.
+# Optional off switch. You do NOT need to add people here - their key works by itself.
+# Only use this to switch someone off. Changes reach servers within about an hour.
 
 # false = switch the plugin off on EVERY server
 enabled: true
@@ -8,6 +7,7 @@ enabled: true
 # Shown in the console of servers that get switched off
 message: "This license has been disabled."
 
-# Keys that are allowed to run the plugin. Remove a line to switch that server off.
-allowed:
-  - my-own-server
+# License names that are switched off
+blocked:
+  - example-name
+  - goosesserver
